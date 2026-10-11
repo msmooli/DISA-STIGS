@@ -6,23 +6,16 @@
     Author          : Makr Mooli
     LinkedIn        : linkedin.com/in/markmooli/
     GitHub          : github.com/msmooli
-    Date Created    : 2025-17-07
-    Last Modified   : 2025-17-07
+    Date Created    : 2025-07-17
+    Last Modified   : 2025-07-17
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
     STIG-ID         : WN10-AU-000500
 
-.TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
-    Systems Tested  : 
-    PowerShell Ver. : 
-
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+    Run from an elevated (Administrator) PowerShell session:
+    PS C:\> .\WN10-AU-000500.ps1
 #>
 
 # Define the registry path and value

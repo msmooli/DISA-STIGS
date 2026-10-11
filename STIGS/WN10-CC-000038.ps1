@@ -13,16 +13,9 @@
     Plugin IDs      : N/A
     STIG-ID         : WN10-CC-000038 
 
-.TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
-    Systems Tested  : 
-    PowerShell Ver. : 
-
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-CC-000038).ps1
+    Run from an elevated (Administrator) PowerShell session:
+    PS C:\> .\WN10-CC-000038.ps1
 #>
 Write-Host "Disabling WDigest authentication (STIG: WN10-CC-000038)..." -ForegroundColor Cyan
 

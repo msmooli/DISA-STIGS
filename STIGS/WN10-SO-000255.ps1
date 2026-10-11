@@ -6,23 +6,16 @@
     Author          : Mark Mooli
     LinkedIn        : linkedin.com/in/markmooli/
     GitHub          : github.com/msmooli
-    Date Created    : 2025-19-07
-    Last Modified   : 2025-19-07
+    Date Created    : 2025-07-19
+    Last Modified   : 2025-07-19
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
     STIG-ID         : WN10-SO-000255
 
-.TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
-    Systems Tested  : 
-    PowerShell Ver. : 
-
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-SO-000255).ps1 
+    Run from an elevated (Administrator) PowerShell session:
+    PS C:\> .\WN10-SO-000255.ps1
 #>
 
 $regPath  = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"

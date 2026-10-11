@@ -1,4 +1,4 @@
- <#000
+ <#
 .SYNOPSIS
     This script enables password expiration for every enabled local user account by turning off their “Password never expires” setting
 
@@ -6,23 +6,16 @@
     Author          : Mark Mooli
     LinkedIn        : linkedin.com/in/markmooli/
     GitHub          : github.com/msmooli
-    Date Created    : 2025-07-08
-    Last Modified   : 2025-07-08
+    Date Created    : 2025-08-07
+    Last Modified   : 2025-08-07
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
     STIG-ID         : WN10-00-000090
 
-.TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
-    Systems Tested  : 
-    PowerShell Ver. : 
-
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-00-000090).ps1 
+    Run from an elevated (Administrator) PowerShell session:
+    PS C:\> .\WN10-00-000090.ps1
 #>
 
 # Run this as Administrator

@@ -13,16 +13,9 @@
     Plugin IDs      : N/A
     STIG-ID         : WN10-AC-000040 
 
-.TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
-    Systems Tested  : 
-    PowerShell Ver. : 
-
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AC-000040).ps1 
+    Run from an elevated (Administrator) PowerShell session:
+    PS C:\> .\WN10-AC-000040.ps1
 #>
 
 # Run this as Administrator
